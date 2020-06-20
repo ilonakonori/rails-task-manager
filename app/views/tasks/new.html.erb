@@ -1,0 +1,13 @@
+<div class="container-new"></div>
+ <%= form_for @task do |f| %>
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title, placeholder: 'Laundry' %>
+  </div>
+  <div>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+  </div>
+  <%= f.submit "Submit!" %>
+ <% end %>
+ </div>
